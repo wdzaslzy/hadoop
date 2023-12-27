@@ -73,6 +73,12 @@ public class TestResourceManager {
     resourceManager.stop();
   }
 
+  @Test
+  public void testRun() throws InterruptedException {
+    ResourceManager.main(null);
+    Thread.sleep(1000000L);
+  }
+
   private org.apache.hadoop.yarn.server.resourcemanager.NodeManager
       registerNode(String hostName, int containerManagerPort, int httpPort,
           String rackName, Resource capability) throws IOException,

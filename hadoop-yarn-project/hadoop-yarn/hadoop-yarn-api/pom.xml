@@ -126,6 +126,7 @@
                   <include>server/SCM_Admin_protocol.proto</include>
                 </includes>
               </source>
+              <output>${basedir}/src/main/java</output>
             </configuration>
           </execution>
         </executions>

@@ -197,6 +197,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
                   <include>RouterProtocol.proto</include>
                 </includes>
               </source>
+              <output>${basedir}/src/main/java</output>
             </configuration>
           </execution>
         </executions>

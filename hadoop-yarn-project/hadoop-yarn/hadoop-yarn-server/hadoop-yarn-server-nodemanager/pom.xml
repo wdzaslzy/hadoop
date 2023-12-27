@@ -375,6 +375,7 @@
                   <include>LocalizationProtocol.proto</include>
                 </includes>
               </source>
+              <output>${basedir}/src/main/java</output>
             </configuration>
           </execution>
         </executions>

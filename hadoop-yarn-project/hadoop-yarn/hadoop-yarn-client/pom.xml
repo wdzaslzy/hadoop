@@ -167,6 +167,7 @@
                   <include>test_amrm_token.proto</include>
                 </includes>
               </source>
+              <output>${basedir}/src/main/java</output>
             </configuration>
           </execution>
         </executions>

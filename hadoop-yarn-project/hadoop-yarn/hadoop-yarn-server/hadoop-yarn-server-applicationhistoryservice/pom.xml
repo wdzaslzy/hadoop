@@ -224,6 +224,7 @@
                   <include>yarn_server_timelineserver_recovery.proto</include>
                 </includes>
               </source>
+              <output>${basedir}/src/main/java</output>
             </configuration>
           </execution>
         </executions>

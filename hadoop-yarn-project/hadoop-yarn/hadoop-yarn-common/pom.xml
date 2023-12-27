@@ -295,6 +295,7 @@
                   <include>yarn_security_token.proto</include>
                 </includes>
               </source>
+              <output>${basedir}/src/main/java</output>
             </configuration>
           </execution>
           <execution>

@@ -314,6 +314,7 @@
                   <include>yarn_server_resourcemanager_recovery.proto</include>
                 </includes>
               </source>
+              <output>${basedir}/src/main/java</output>
             </configuration>
           </execution>
           <execution>
